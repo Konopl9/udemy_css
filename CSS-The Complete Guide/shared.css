@@ -11,6 +11,11 @@ body {
     background-color: #2ddf5c;
     width: 100%;
     padding: 8px 16px;
+    /* add fixed top position */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;                                                                                                                                
 }
 
 .main-header > div {
